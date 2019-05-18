@@ -6,8 +6,8 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-- name: "courses"
-    label: "Courses"
+  - name: "courses"
+    label: "Course"
     folder: "src/pages/course"
     create: true
     slug: "{{slug}}"
