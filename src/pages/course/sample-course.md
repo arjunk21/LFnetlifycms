@@ -6,6 +6,8 @@ featuredpost: true
 featuredimage: /img/blog-index.jpg
 tags:
   - sample
+  - test
+  - demo
 ---
 # how to make coffee
 
