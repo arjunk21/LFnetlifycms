@@ -6,12 +6,13 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "courses"
+  - name: "course"
     label: "Course"
     folder: "/course"
     create: true
     slug: "{{slug}}"
     fields:
+      {label: "Template Key", name: "templateKey", widget: "hidden", default: "course-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
@@ -19,18 +20,7 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-  - name: "lessons"
-    label: "Lessons"
-    folder: "/course"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+  
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
