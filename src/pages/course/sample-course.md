@@ -5,7 +5,7 @@ description: this is just first sample course
 featuredpost: true
 featuredimage: /img/blog-index.jpg
 tags:
-  - samle
+  - sample
 ---
 # how to make coffee
 
