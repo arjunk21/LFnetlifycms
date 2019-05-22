@@ -4,6 +4,8 @@ date: 2019-05-18T06:22:25.751Z
 description: this is just first sample course
 featuredpost: true
 featuredimage: /img/blog-index.jpg
+tags:
+  - samle
 ---
 # how to make coffee
 
